@@ -38,11 +38,11 @@ public class Main {
 
     System.out.println("Pessoa 1: Nome = " + person1.name + ", Idade = " + person1.age + " e Altura = " + person1.height);
     System.out.println("Pessoa 2: Nome = " + person2.name + ", Idade = " + person2.age);
-    // Alter value
+    // Alterando valor
     person1.name = "Carlos Silva";
     person1.nextYear();
 
-    // Pos alterar
+    // Depois de alterar
     System.out.println("Pessoa 1: Nome = " + person1.name + ", Idade = " + person1.age + " e Altura = " + person1.height);
 
   }
